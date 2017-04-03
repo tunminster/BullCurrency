@@ -168,7 +168,7 @@ WriteLiteral("\r\n                    \r\n                </div>\r\n\r\n        
 
 WriteLiteral(" class=\"rate-content\"");
 
-WriteLiteral(">\r\n                    <label>1 GBP = </label> ");
+WriteLiteral(">\r\n                    \r\n                    <label>1 GBP = </label> ");
 
 WriteLiteral("\r\n                </div>\r\n\r\n            </div>\r\n\r\n        </form>\r\n    </div>\r\n</" +
 "body>\r\n</html>\t");
