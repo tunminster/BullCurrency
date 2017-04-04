@@ -66,6 +66,12 @@ WriteLiteral(@">
             var elm = document.getElementById('label');
             elm.innerHTML = text;
         }
+
+        //invoke converting home currency to destination currency
+        function InvokeConvertDestinationCurrency(text) {
+            
+        }
+
     </script>
 </head>
 <body>
@@ -86,7 +92,7 @@ WriteLiteral(" id=\"label\"");
 WriteLiteral(">");
 
 
-#line 37 "RazorView.cshtml"
+#line 43 "RazorView.cshtml"
                           Write(Model.Text);
 
 
@@ -138,9 +144,9 @@ WriteLiteral(">How much would you like?</label>\r\n                    <input");
 
 WriteLiteral(" type=\"text\"");
 
-WriteLiteral(" id=\"txtFromAmount\"");
+WriteLiteral(" id=\"txtAmount\"");
 
-WriteLiteral(" name=\"txtFromAmount\"");
+WriteLiteral(" name=\"txtAmount\"");
 
 WriteLiteral("/>\r\n                    <label");
 
