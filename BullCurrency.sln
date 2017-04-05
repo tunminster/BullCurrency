@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BullCurrency", "BullCurrency\BullCurrency.csproj", "{CFFC2512-F5CE-4714-8CFC-6653C2F3F264}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BullCurrency_AndroidApp", "BullCurrency_AndroidApp\BullCurrency_AndroidApp.csproj", "{AACFA60F-25C3-4AA7-867E-53A9E748761F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BullCurrency.Core", "BullCurrency.Core\BullCurrency.Core.csproj", "{D49371FE-167A-4E4C-B53A-D80EE6F73AE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +21,16 @@ Global
 		{CFFC2512-F5CE-4714-8CFC-6653C2F3F264}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFFC2512-F5CE-4714-8CFC-6653C2F3F264}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CFFC2512-F5CE-4714-8CFC-6653C2F3F264}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AACFA60F-25C3-4AA7-867E-53A9E748761F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AACFA60F-25C3-4AA7-867E-53A9E748761F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AACFA60F-25C3-4AA7-867E-53A9E748761F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AACFA60F-25C3-4AA7-867E-53A9E748761F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AACFA60F-25C3-4AA7-867E-53A9E748761F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AACFA60F-25C3-4AA7-867E-53A9E748761F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D49371FE-167A-4E4C-B53A-D80EE6F73AE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D49371FE-167A-4E4C-B53A-D80EE6F73AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D49371FE-167A-4E4C-B53A-D80EE6F73AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D49371FE-167A-4E4C-B53A-D80EE6F73AE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

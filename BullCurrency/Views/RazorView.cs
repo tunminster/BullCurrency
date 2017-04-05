@@ -69,6 +69,7 @@ WriteLiteral(@">
 
         //invoke converting home currency to destination currency
         function InvokeConvertDestinationCurrency(text) {
+            alert(""hello"");
             
         }
 
@@ -92,7 +93,7 @@ WriteLiteral(" id=\"label\"");
 WriteLiteral(">");
 
 
-#line 43 "RazorView.cshtml"
+#line 44 "RazorView.cshtml"
                           Write(Model.Text);
 
 
@@ -147,6 +148,8 @@ WriteLiteral(" type=\"text\"");
 WriteLiteral(" id=\"txtAmount\"");
 
 WriteLiteral(" name=\"txtAmount\"");
+
+WriteLiteral(" onkeyup=\"InvokeConvertDestinationCurrency(this)\"");
 
 WriteLiteral("/>\r\n                    <label");
 

@@ -29,6 +29,7 @@
 
         //invoke converting home currency to destination currency
         function InvokeConvertDestinationCurrency(text) {
+            alert("hello");
             
         }
 
@@ -54,7 +55,7 @@
                     <input type="text" id="txtDestinationCurrency" name="txtDestinationCurrenty"/>
 
                     <label class="label-text">How much would you like?</label>
-                    <input type="text" id="txtAmount" name="txtAmount"/>
+                    <input type="text" id="txtAmount" name="txtAmount" onkeyup="InvokeConvertDestinationCurrency(this)"/>
                     <label class="normal-label">GBP</label>
                     <label class="normal-label">=</label>
                     <input type="text" id="txtDestinationAmount" name="txtDestinationAmount"/>
