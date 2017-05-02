@@ -2,4 +2,12 @@
 <resources>
     <string name="Hello">Hello World, Click Me!</string>
     <string name="ApplicationName">BullCurrency_AndroidApp</string>
+
+    <string name="BuyCurrency">Buy Currency</string>
+    <string name="HolidayCountDown">Holiday CountDown</string>
+
+    <string name="whatson_tab_label">What\'s On</string>
+    <string name="speakers_tab_label">Speakers</string>
+    <string name="sessions_tab_label">Sessions</string>
+  
 </resources>
